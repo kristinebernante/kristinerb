@@ -4,15 +4,179 @@
 body {
   position: relative;
   margin: 0;
-  /* padding-bottom: 6rem; */
+  padding-bottom: 6rem;
   min-height: 100%;
   font-family: "Helvetica Neue", Arial, sans-serif;
-  /* Padding for top navbar fixed  */
+  Padding for top navbar fixed
   padding-top: 70px; 
 }
 html {
   height: 100%;
   box-sizing: border-box;
+}
+
+
+.jumbotron{
+    margin-top: 70px;
+    min-height: 500px; 
+    background-image: url("Jumpcover.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* .jumbotitle {
+    font-size: 100px;
+    font-weight: 500;
+    /* text-shadow: 2px 2px 0 #CF1414; */
+    /* font-family: 'tahoma';
+}   */
+
+
+.my-container{
+	border: 1px solid #aaa;
+	background-color: white;
+  max-width: 300px;
+    /* margin: 110px auto 10px auto; */
+  margin-top: 10px;
+  margin-left: 30px;
+	/* padding: 1rem; */
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+	font-family: "Lato";
+}
+.my-container h1{
+	text-align: center; 
+}
+.my-container ul{
+	max-width: 200px;
+    margin-left: 30%;
+}    
+
+.my-hr{
+	max-width: 250px;
+	border: 4px solid orangered;
+}
+.my-face{
+	display: block;
+	max-width: 100px;
+	max-height: 100px;
+	margin: 1rem auto;
+	border: 1px solid #aaa;
+	border-radius: 50%;
+	margin-top: -30px;
+}
+.author {
+  font-family: 'Tahoma';
+  font-size: 20px;
+  text-align: center;
+}
+
+.my-link{
+	font-weight: 900%;
+	text-decoration-line: none;
+	color: black;
+}
+
+.my-link:hover, .my-link:active{
+	color: white;
+	background-color: black;
+}
+
+.showauthor {
+  font-family: 'Impact';
+  text-align: center;
+}
+.designby{
+  text-align: center;
+  color: gray;
+}
+
+.Austitle{
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  /* border: 20px; */
+  padding: 20px;
+  background-image: url("maple.jpg");
+  background-repeat: repeat;
+  background-size: 50%;
+  background-position: center;
+}
+
+.Asiatitle{
+   text-align: center;
+   font-weight: bolder;
+}
+
+#thumbnail :hover{
+  border: 1px solid #777;  
+}
+
+input[type=submit]:hover{
+    background-color: #91FF00;
+}
+
+/* #myImg:hover {opacity: 0.7;} */
+
+#bodyAus {
+  margin-top: 75px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("AU13.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+    margin-top: 10px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.TitleAus {
+    text-align: center;
+    color: #8AC222;
+    font-weight: bold;
+    padding-top: 80px;
+} 
+
+
+
+input[type=text]:focus, 
+input[type=email]:focus{
+	outline: none;
+	border-color: #FFC400;
+	color: #0004FF;
+}
+
+/*submit button selector*/
+input[type=submit]{
+	height: 3rem;
+	border: auto;
+	background-color: black;
+	color: white;
+}
+
+/*hovering state, similar to a:hover */
+input[type=submit]:hover{
+    background-color: #2E4285;
+}
+
+.ausblog{
+    text-align: left;
+}
+.blogalert{
+    color: orchid;
+    font-weight: bold;
+}
+.blogtitle{
+    font-weight: bold;
+    text-align: center;
 }
 
 /* Responsive typography */
@@ -70,4 +234,3 @@ html {
 }
 
 /* GRID -  */
-
