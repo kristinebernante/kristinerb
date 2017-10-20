@@ -1,315 +1,405 @@
-<!-- webcoder assignment HTML snippet -->
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Page tag title -->
-        <title>My First Webpage</title>
-
-        <!-- Customise CSS -->
-        <link rel="stylesheet" type="text/css" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KMRB</title>
+</head>
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
-    
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="cosmo.css">
+
         <!-- Font awesome after themes and bootstrap -->
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
 
         <!-- Animate.css -->
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
-    
-        <!-- For development purposes Only -->
-            <!-- <style type="text/css">
-                body{border: 2px solid blue;}
-                .container{border: 2px solid green;}
-                .row{border: 2px dotted red;}
-                .row[class*='col-']{border: 3px solid purple;}
-                .show{border: 3px solid purple;}
-            </style> -->
-        <!-- To be commented out for production release -->
-    </head>
+        <!-- Customise CSS -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+   
+       
+<body>
+ <!-- Top Navigation Bar -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+             
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                </ul>
 
-    <body>
-        <!-- Top Navigation bar -->
-        <nav class="navbar fixed-top navbar-light bg-light">
-            <a class="navbar-brand" href="https://www.ibm.com/ibm/sg/en/" target="_blank">
-                <img src="brand-ibm.jpg" height="30" alt="">
-            </a>
-            <span class="navbar-text">
-                <a class="" href="http://point.sg.ibm.com:9500/#!/welcome" target="_blank">webcoder</a>
-            </span>
+                <ul class="nav navbar-right">
+                   <li class="dropdown">
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Navigate Site</a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="asia.html">Asia</a></li>
+                          <li><a href="australia.html">Australia</a></li>
+                          <li><a href="canada.html">Canada</a></li>
+                          <li class="divider"></li>
+                          <li><a href="help.html">Helpful Travel Links</a></li>
+                        </ul>
+                    </li> 
+                </ul>
+                   
+               
+            </div>
+            </div>
         </nav>
 
-        <!-- Container - entire page contents -->
-        <div class="container">
-            <!-- Row1: Jumbotron -->
-            <div class="row">
-                <div class="col-xs-12
-                            col-sm-12
-                            col-md-12
-                            col-lg-12">
-                    <div class="jumbotron">
-                        <h1>Kristine Rodelas Bernante</h1>
-                        <p>Paragraph set</p>
-                        <a class="btn btn-success btn-md" href="#" role="button">Learn more</a>
-                    </div>
-                </div>
+ 
+<!-- Container - entire page contents -->
+
+<div class="container">
+    <!-- Row1: Jumbotron -->
+    <div class="row">
+        <div class="col-xs-12
+                        col-sm-12
+                        col-md-12
+                        col-lg-12">
+            <div class="jumbotron"> 
+                    <h1 class="jumbotitle">The Adventures of Tin and Gorge</h1>
+                    <br>
+                    <h3 class="animated infinite bounce">travel.relax.dream.chill.wonder</h3>
+                    <!-- <a class="btn btn-success btn-md" href="#" role="button">Go! Go! Go!</a> -->
             </div>
-            <!-- end of Row1: Jumbotron -->
+        </div>
+    </div>
+    <!-- end of Row1: Jumbotron -->
 
-            <!-- Row2: Thumbnails -->
-            <div class="row">
-                <!-- Row2 Column1 -->
-                <div class="col-xs-12
-                            col-sm-4
-                            col-md-4
-                            col-lg-4 show">
-                    <div class="img-thumbnail">
-                        <img src="http://placehold.it/800x600" class="img-fluid rounded" alt="">
-                        <div class="card-body">
-                            <h3>title</h3>
-                            <p>quick brown fox jumps over the lazy dog.</p>
-                            <a href="#" class="btn btn-primary btn-sm">click</a>
+    <!-- Row2: Thumbnails -->
+
+                <div class="row">
+                        <!-- Row2 Column1 -->
+                        <div class="col-xs-12
+                                    col-sm-4
+                                    col-md-4
+                                    col-lg-4 show">
+                            <div class="img-thumbnail">
+                                <!-- <img src= "HK.jpg" class="img-fluid rounded" alt=""> -->
+        
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                          <li data-target="#myCarousel" data-slide-to="1"></li>
+                                          <li data-target="#myCarousel" data-slide-to="2"></li>
+                                        </ol>
+                                      
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner">
+                                          <div class="item active">
+                                            <img src="HK.jpg" alt="Los Angeles">
+                                          </div>
+                                      
+                                          <div class="item">
+                                            <img src="PH7.jpg" alt="Chicago">
+                                          </div>
+                                      
+                                          <div class="item">
+                                            <img src="Cam1.jpg" alt="New York">
+                                          </div>
+                                        </div>
+                                      
+                                        <!-- Left and right controls -->
+                                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                          <span class="glyphicon glyphicon-chevron-left"></span>
+                                          <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                          <span class="glyphicon glyphicon-chevron-right"></span>
+                                          <span class="sr-only">Next</span>
+                                        </a>
+                                      </div>
+        
+        
+                                    <div class="card-body">
+                                    <h3>Asia</h3>
+                                    <p>Wandering in the Tropics</p>
+                                    <a href="asia.html" class="btn btn-primary btn-sm">See More</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <!-- end of Row2 Column1 -->
-
-                <!-- Row2 Column2 -->
-                <div class="col-xs-12
-                            col-sm-4
-                            col-md-4
-                            col-lg-4 show">
-                    <div class="img-thumbnail">
-                        <img src="http://placehold.it/800x600" class="img-fluid rounded" alt="">
-                        <div class="card-body">
-                            <h3>title</h3>
-                            <p>quick brown fox jumps over the lazy dog.</p>
-                            <a href="#" class="btn btn-primary btn-sm">click</a>
+                       
+                        <!-- end of Row2 Column1 -->
+                        
+        
+                        <!-- Row2 Column2 -->
+                        <div class="col-xs-12
+                                    col-sm-4
+                                    col-md-4
+                                    col-lg-4 show">
+                            <div class="img-thumbnail">
+                                <img src="AU1.jpg" class="img-fluid rounded" alt="photo">
+                                <div class="card-body">
+                                    <h3>Australia</h3>
+                                    <p>Amazing Land Down Under</p>
+                                    <a href="australia.html" class="btn btn-primary btn-sm">See More</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <!-- end of Row2 Coloumn2 -->
-
-                <!-- Row2 Column3 -->
-                <div class="col-xs-12
-                            col-sm-4
-                            col-md-4
-                            col-lg-4 show">
-                    <div class="img-thumbnail">
-                        <img src="http://placehold.it/800x600" class="img-fluid rounded" alt="">
-                        <div class="card-body">
-                            <h3>title</h3>
-                            <p>quick brown fox jumps over the lazy dog.</p>
-                            <a href="#" class="btn btn-primary btn-sm">click</a>
+                        <!-- end of Row2 Coloumn2 -->
+        
+                        <!-- Row2 Column3 -->
+                        <div class="col-xs-12
+                                    col-sm-4
+                                    col-md-4
+                                    col-lg-4 show">
+                            <div class="img-thumbnail">
+                                <img src="AB2.jpg" class="img-fluid rounded" alt="photo">
+                                <div class="card-body">
+                                    <h3>Canada</h3>
+                                    <p>Hello from the other side...of the Pacific</p>
+                                    <a href="canada.html" class="btn btn-primary btn-sm">See More</a>
+                                </div>
+                            </div>
                         </div>
+                        <!-- end of Row2 Column3 -->
                     </div>
-                </div>
-                <!-- end of Row2 Column3 -->
-            </div>
-            <br>
-            <!-- end of Row2: Thumbnails -->
-
-            <!-- Row3: video -->
-            <div class="row">
-                <div class="col-xs-12
-                            col-sm-12
-                            col-md-12
-                            col-lg-12">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qTSDL94_Y7M" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-            <br>
+                    <br>
+          <!-- end of Row2: Thumbnails -->
+        
+          <!-- Row3: video -->
+                 <div class="row">
+                        <div class="col-xs-12
+                                    col-sm-12
+                                    col-md-12
+                                    col-lg-12 show">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Oevtb6Z0W9c?autoplay=1" allowfullscreen></iframe>
+                                </div>
+                         </div>
+                   </div>
+                   <br>
             <!-- end of Row3: video -->
-
+    
+    
             <!-- Row4: Form & Text -->
             <div class="row">
-                <!-- Row4 Column1: form -->
-                <div class="col-xs-12
-                            col-sm-6
-                            col-md-6
-                            col-lg-6 show">
-                    <div class="card card-default">
-                        <div class="card-body">
-                            <form action="" method="post">
-                                <legend class="card-header">Sign up</legend>
-                                <br>
-                                <div class="form-group">
-                                    <label for="name-id">Name: </label>
-                                    <input  type="text" 
-                                            name="NAME" 
-                                            id="name-id" 
-                                            placeholder="frank lee" 
-                                            class="form-control"
-                                            required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="email-id">Email: </label>
-                                    <input  type="email" 
-                                            name="EMAIL" 
-                                            id="email-id" 
-                                            placeholder="franklee@email.com" 
-                                            class="form-control"
-                                            required>
-                                </div>
-                                <label for="">Newsletter: </label>
-                                <div class="radio">
-                                    <label>
-                                        <input  type="radio" 
-                                                name="NEWSLETTER" 
-                                                value="weekly" 
-                                                checked="checked">
-                                        send me weekly
-                                    </label>
-                                </div>
-                                <div class="radio">
-                                    <label>
-                                        <input  type="radio" 
-                                                name="NEWSLETTER" 
-                                                value="never">
-                                        do not send me any
-                                    </label>
-                                </div>
-                                <br>
-                                <div class="form-group">
-                                    <input type="submit" class="btn btn-default">
-                                </div>
-                            </form>
+                    <!-- Row4 Column1: form -->
+                    <div class="col-xs-12
+                                col-sm-6
+                                col-md-6
+                                col-lg-6 show">
+                        <div class="card card-default">
+                            <div class="card-body">
+                                <style>
+                                 .hide { position:absolute; top:-1px; left:-1px; width:1px; height:1px; }
+                                </style>
+                                <iframe name="hiddenFrame" class="hide"></iframe>
+                                <form action="https://script.google.com/macros/s/AKfycbyyanwXznEnQMzbnEsuYh_jCAwH64eqVotyCNbB3E1josg4QQ/exec" 
+                                    target = "hiddenFrame"
+                                    method="post">
+                                    <legend class="card-header">Subscribe to our site and receive updates</legend>
+                                    <br>
+                                    <div class="form-group">
+                                        <label for="name-id">Name: </label>
+                                        <input  type="text" 
+                                                name="NAME" 
+                                                id="name-id" 
+                                                placeholder="Kristine Bernante" 
+                                                class="form-control"
+                                                required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email-id">Email: </label>
+                                        <input  type="email" 
+                                                name="EMAIL" 
+                                                id="email-id" 
+                                                placeholder="xxx@xxx.com" 
+                                                class="form-control"
+                                                required>
+                                    </div>
+                                    <label for="myweekly">Update or news: </label>
+                                    <div class="radio">
+                                        <label>
+                                            <input  type="radio" 
+                                                    name="NEWSLETTER" 
+                                                    value="weekly" 
+                                                    checked="checked">                                               
+                                            <a class="radiotext"> send me new update</a>
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label>
+                                            <input  type="radio" 
+                                                    name="NEWSLETTER" 
+                                                    value="never">
+                                            <a class="radiotext"> do not send me any</a>        
+                                            
+                                        </label>
+                                    </div>
+                                    <br>
+                                    <div class="form-group">
+                                        <input type="submit" class="btn btn-default">
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
+                    <!-- end of Row4 Column1 -->
+        
+                    <!-- Row4 Column2: text -->
+                    <div class="col-xs-12
+                                col-sm-6
+                                col-md-6
+                                col-lg-6
+                                text-center show">
+                        <h1>Our Travel Diary</h1>
+                        <hr>
+                        <p>
+                            Sharing with you how we journey to the world. 
+                            Charot! This is just a compilation of unglamorous photos, selfies and amateur videos as we wander in this beautiful world.
+                            <br>
+                            <br>
+                            It's kinda ironic though that our favorite place to unwind and chill is still at Tagaytay. It's a small town in the Philippines; I have placed the google map link at the bottom of this page so you can know where this town is located.
+                        </p>
+                    </div>
+                    <!-- end of Row4 Column2 -->
                 </div>
-                <!-- end of Row4 Column1 -->
-    
-                <!-- Row4 Column2: text -->
-                <div class="col-xs-12
-                            col-sm-6
-                            col-md-6
-                            col-lg-6
-                            text-center show">
-                    <h1>MY TITLE</h1>
-                    <hr>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                        anim id est laborum.
-                    </p>
-                </div>
-                <!-- end of Row4 Column2 -->
-            </div>
-            <br>
-            <!-- end of Row4: Form & Text -->
-
+                <br>
+                <br>
+                <!-- end of Row4: Form & Text -->
             <!-- Row5: Details -->
             <div class="row">
-                <!-- Row 5 Column1: table -->
-                <div class="col-xs-12
-                            col-sm-4
-                            col-md-4
-                            col-lg-4 show">
-                    <h3>Table title</h3>
-                    <table class="table table-hover">
-                        <thead>
-                            <tr>
-                                <th>Title 1</th>
-                                <th>Title 2</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>content 1</td>
-                                <td>content 1</td>
-                            </tr>
-                            <tr>
-                                <td>content 2</td>
-                                <td>content 2</td>
-                            </tr>
-                            <tr>
-                                <td>content 3</td>
-                                <td>content 3</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <!-- end of Row5 Column1 -->
-
-                <!-- Row5 Column2: embed map -->
-                <div class="col-xs-12
-                            col-sm-4
-                            col-md-4
-                            col-lg-4 show">
-                    <div class="embed-responsive embed-responsive-4by3">
-                        <iframe src="https://goo.gl/kBckE1" class="embed-responsive-item"></iframe>
+                    <!-- Row 5 Column1: table -->
+                    <div class="col-xs-12
+                                col-sm-4
+                                col-md-4
+                                col-lg-4 show">
+                        <h3>Helpful Links</h3>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>ABOUT US</th>
+                                    <!-- <th>PRIVACY POLICY</th> -->
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a target="_blank" class="my-link" href="https://en-gb.facebook.com/login/">Join our Facebook Community</a></td>
+                                    <!-- <td>Privacy Policy</td> -->
+                                </tr>
+                                <tr>
+                                    <td><a target="_blank" class="my-link" href="https://twomonkeystravelgroup.com/travel-blog/">Our Travel Blog Inspiration</a></td>
+                                    <!-- <td>content 2</td> -->
+                                </tr>
+                                <tr>
+                                    <td>Privacy Policy</td>
+                                    <!-- <td>content 3</td> -->
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                </div>
-                <!-- end of Row5 Column2 -->
-
-                <!-- Row5 Column3: list group -->
-                <div class="col-xs-12
-                            col-sm-4
-                            col-md-4
-                            col-lg-4 show">
-                    <div class="list-group">
-                        <a href="#" class="list-group-item list-group-item-action">
-                            <i class="fa fa-telegram fa-fw"></i> one
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action">
-                            <i class="fa fa-telegram fa-fw"></i> two
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action">
-                            <i class="fa fa-telegram fa-fw"></i> three
-                        </a>
-                    </div>
-                </div>
-                <!-- end of Row5 Column3 -->
-            </div>
-            <hr>
-            <!-- end of Row5: Details -->
-
-            <!-- Row6 -->
-            <div class="row">
-                <div class="col-xs-12
-                            col-sm-12
-                            col-md-12
-                            col-lg-12">
-                    <ul class="list-inline text-center">
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fa fa-facebook fa-2x"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fa fa-twitter fa-2x"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fa fa-linkedin fa-2x"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- end of Row6 -->
-
-        </div>
-        <!-- end of Container -->
-
-        <!-- JavaScript - jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
-        
-        <!-- Customise JavaScript -->
-        <script src="javascript.js"></script>
+                    <!-- end of Row5 Column1 -->
     
-    </body>
+                    <!-- Row5 Column2: embed map -->
+                    <div class="col-xs-12
+                                col-sm-4
+                                col-md-4
+                                col-lg-4 show">
+                              
+                        <div class="embed-responsive embed-responsive-4by3">
+                            <!-- <iframe src="https://goo.gl/maps/WVhxm86eu8x" class="embed-responsive-item"></iframe> -->
+                            <!-- <iframe src="https://goo.gl/kBckE1" class="embed-responsive-item"></iframe> -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123818.35725663927!2d120.89889146962038!3d14.117053473577226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd777b1ab54c8f%3A0x6ecc514451ce2be8!2sTagaytay%2C+Cavite%2C+Philippines!5e0!3m2!1sen!2ssg!4v1508325013071" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <!-- end of Row5 Column2 -->
+    
+                    <!-- Row5 Column3: list group -->
+                    <div class="col-xs-12
+                                col-sm-4
+                                col-md-4
+                                col-lg-4 show">
+                        <!-- <div class="list-group"> Contact Me
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <i class="fa fa-telegram fa-fw"></i> one
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <i class="fa fa-telegram fa-fw"></i> two
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <i class="fa fa-telegram fa-fw"></i> three
+                            </a>
+                        </div> -->
+                        <div class="my-container"> 
+                                <img src="Kristine Prof 6S.JPG" alt="logo" class="my-face">
+                                <p class="author">Kristine Bernante</p>
+                                <p class="showauthor">Contact Me</p>
+                                <hr class="my-hr">
+                                <ul class="fa-ul">
+                                    <li><i class="fa-li fa fa-phone"></i>
+                                     <a href="tel:+6566037000" class="my-link">+6566037000 </a>
+                                    </li>
+                                    <li><i class="fa-li fa fa-envelope"></i>
+                                    <a href="mailto:kristine_rodelas@yahoo.com" class="my-link">kristine_rodelas@yahoo.com </a>
+                                    </li>
+                                    <li><i class="fa-li fa fa-home"></i>
+                                        <a href="https://goo.gl/maps/ofP3EGkCPfP2" target="_blank" class="my-link"> Singapore </a>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                    <!-- end of Row5 Column3 --> 
+                </div>
+                <hr>
+                <!-- end of Row5: Details -->
+    
+                <!-- Row6 -->
+                <div class="row">
+                    <div class="col-xs-12
+                                col-sm-12
+                                col-md-12
+                                col-lg-12">
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://en-gb.facebook.com/login/">
+                                    <i class="fa fa-facebook fa-2x"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://twitter.com/?lang=en">
+                                    <i class="fa fa-twitter fa-2x"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.instagram.com/?hl=en">
+                                    <i class="fa fa-instagram fa-2x"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- end of Row6 -->
+                <p class="designby">Designed by KMRBernante for Web Coding Workshop 2017</p>
+</div>
 
+
+              
+
+  <!-- JavaScript - jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7-beta/js/bootstrap.min.js"></script>
+  
+
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/tether/1.4.0/tether.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="webcoder snippet/index.js"></script>
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+     <!-- Customise JavaScript -->
+     <script type="text/javascript" src="javascript.js"></script>    
+
+
+
+</body>
 </html>
